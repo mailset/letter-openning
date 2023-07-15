@@ -1,0 +1,3 @@
+开字母思路：
+从words1 clone一份words2，然后在words2里把对应字母转成*，words2里的每条字符串与words_hidden里的比对
+如果words_hidden的对应字符是*而words2里的对应字符不是*，则把words2中的替换进words_hidden
